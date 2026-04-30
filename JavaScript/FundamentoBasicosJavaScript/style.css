@@ -1,0 +1,49 @@
+/*Reset basico: remove os 3espaços extras*/
+*{
+    margin: 0; /*remove margens padrao*/
+    padding: 0;/*remove espaçamentos internos*/
+}
+/*corpo da pagina*/
+body{
+    background-color: #a8c2dd; /*COR DE FUNDO*/
+     font-family: "Archivo Black", sans-serif;
+     color: rgb(0, 0, 0); /*cor padrão do texto*/
+     font-size: 16px; /*tamanho padrão da fonte*/
+     line-height: 1,7;/*espaçamento entre linhas*/
+
+}
+    .container{
+        max-width: 1080px;/*define largura*/
+        margin: 40px auto; /*centraliza horizontalmente e da espaço acima/baixo*/
+        padding: 40px;/*espaçamento interno*/
+        background-color: rgb(184, 233, 229);/*fundo branco*/
+        border-radius: 10px;/*cantos redondados*/
+        box-shadow: 0 4px 16px rgba(10, 10, 10, 10);/*sombra leve*/
+    }
+
+    nav{
+        background-color: rgb(126, 173, 126); /*cor de fundo*/
+        padding: 14px; /*espaçamento interno*/
+        border-radius: 10px; /*cantos arredondados*/
+        margin-bottom: 30px;/*espaço abixo do menu*/
+        text-align: center;/*centraliza os link*/
+    }
+
+    nav a{
+        color: azure;/*cor do texto (braco)*/
+        text-decoration: none; /*remove sublinhado*/
+        margin: 0 10px;/*espaço entre os link*/
+        font-weight: bold;/*texto em negrito*/
+    }
+
+    nav a:hover{
+        text-decoration: underline; /*adiciona sublinhado ao passar o mouse*/
+    }
+
+    h1{
+        font-size: 40px;/*tamanho grande*/
+        color: darkcyan;/*cores do titulo*/
+        border-left: 5px solid green;/*barra decorativa lateral*/
+        padding-left: 10px; /*espaço entre a barra e o texto*/
+        margin-bottom: 10px;/*espaço abaixo*/
+    }

@@ -47,3 +47,144 @@ body{
         padding-left: 10px; /*espaço entre a barra e o texto*/
         margin-bottom: 10px;/*espaço abaixo*/
     }
+    
+    /* SUBTÍTULO */
+h2 {
+  color: #2563eb; /* Azul */
+  margin-top: 20px; /* Espaço acima */
+}
+
+/* SUBTÍTULO MENOR */
+h3 {
+  color: #64748b; /* Cinza */
+  margin-top: 15px; /* Espaço acima */
+}
+
+/* PARÁGRAFOS */
+p {
+  margin-bottom: 12px; /* Espaço abaixo de cada parágrafo */
+}
+
+/* TEXTO EM NEGRITO */
+strong {
+  color: #1e40af; /* Azul escuro */
+}
+
+/* TEXTO EM ÊNFASE (itálico) */
+em {
+  color: #7c3aed; /* Roxo */
+}
+
+/* TEXTO MARCADO */
+mark {
+  background-color: #fef08a; /* Amarelo */
+}
+
+/* LINHA HORIZONTAL */
+hr {
+  margin: 20px 0; /* Espaço acima e abaixo */
+}
+
+/* LINKS GERAIS */
+a {
+  color: #2563eb; /* Azul */
+}
+
+/* LINK AO PASSAR O MOUSE */
+a:hover {
+  color: #f59e0b; /* Amarelo */
+}
+
+/* IMAGEM */
+img {
+  max-width: 120px; /* Limita o tamanho */
+  border-radius: 50%; /* Deixa a imagem redonda */
+  border: 3px solid #2563eb; /* Borda azul */
+  margin: 15px 0; /* Espaço acima e abaixo */
+}
+
+/* LISTAS */
+ul, ol {
+  margin-left: 20px; /* Recuo da lista */
+}
+
+/* FORMULÁRIO */
+form {
+  background-color: #f8fafc; /* Fundo claro */
+  border: 1px solid #cbd5e1; /* Borda cinza */
+  border-radius: 10px; /* Cantos arredondados */
+  padding: 20px; /* Espaço interno */
+  margin-top: 20px; /* Espaço acima */
+}
+
+/* RÓTULOS (labels) */
+label {
+  font-weight: bold; /* Texto em negrito */
+}
+
+/* CAMPOS DE ENTRADA */
+input, textarea, select {
+  width: 100%; /* Ocupa toda a largura */
+  padding: 8px; /* Espaço interno */
+  margin-bottom: 10px; /* Espaço abaixo */
+  border: 1px solid #cbd5e1; /* Borda */
+  border-radius: 5px; /* Cantos arredondados */
+}
+
+/* BOTÃO */
+button {
+  background-color: #2563eb; /* Azul */
+  color: white; /* Texto branco */
+  padding: 10px 20px; /* Espaço interno */
+  border: none; /* Remove borda */
+  border-radius: 5px; /* Cantos arredondados */
+}
+
+/* BOTÃO AO PASSAR O MOUSE */
+button:hover {
+  background-color: #1e40af; /* Azul mais escuro */
+}
+
+/* TABELA */
+table {
+  width: 100%; /* Ocupa toda largura */
+  border-collapse: collapse; /* Junta as bordas */
+  margin-top: 20px; /* Espaço acima */
+}
+
+/* CABEÇALHO DA TABELA */
+th {
+  background-color: #2563eb; /* Fundo azul */
+  color: white; /* Texto branco */
+  padding: 10px; /* Espaço interno */
+}
+
+/* CÉLULAS */
+td {
+  padding: 10px; /* Espaço interno */
+  border: 1px solid #cbd5e1; /* Borda */
+}
+
+/* ELEMENTOS DE MÍDIA */
+video, audio, iframe {
+  margin: 15px 0; /* Espaço acima e abaixo */
+}
+
+/* BLOCO DE CÓDIGO */
+pre {
+  background-color: #1e293b; /* Fundo escuro */
+  padding: 15px; /* Espaço interno */
+  border-radius: 5px; /* Cantos arredondados */
+}
+
+/* TEXTO DO CÓDIGO */
+code {
+  color: #7dd3fc; /* Azul claro */
+}
+
+/* RODAPÉ */
+footer {
+  margin-top: 30px; /* Espaço acima */
+  text-align: center; /* Centraliza o texto */
+  font-size: 14px; /* Texto menor */
+}
